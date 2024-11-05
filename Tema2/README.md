@@ -6,6 +6,8 @@
 - 5x Rezistoare (3x 330 ohm, 2x 2000 ohm)
 - Breadbord
 - Fire de legătură
+
+  
  ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Tema2/poza_circuit2.png)
 
 ## 2.Detalii Tehnice
