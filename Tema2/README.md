@@ -15,3 +15,6 @@
 - Butonul de dificultate: Butonul de dificultate controlează viteza cu care apar cuvintele și poate fi folosit doar în starea de repaus. La fiecare apăsare, dificultatea se schimbă ciclind între: (Easy, Medium, Hard). La schimbarea dificultății, se trimite un mesaj prin serial: “Easy/Medium/Hard mode on!”.
 
 - Generarea cuvintelor: Se va crea un dicționar de cuvinte. În timpul unei runde, cuvintele vor fi afișate în terminal într-o ordine aleatorie. Dacă cuvântul curent a fost scris corect, un cuvânt nou va fi afișat imediat. Dacă nu, un nou cuvânt va apărea după intervalul de timp stabilit în funcție de dificultate.
+
+## 3. Video demonstrativ:
+https://youtube.com/shorts/dEik2olXsSA?feature=share
