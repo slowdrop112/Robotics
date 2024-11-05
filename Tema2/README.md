@@ -1,5 +1,5 @@
 # Typeracer Game
-# 1.Componente folosite :
+## 1.Componente folosite :
 -Arduino UNO (ATmega328P microcontroller)
 -1x LED RGB (pentru a semnaliza dacă cuvântul corect e scris greșit sau nu)
 -2x Butoane (pentru start/stop rundă și pentru selectarea dificultății)
