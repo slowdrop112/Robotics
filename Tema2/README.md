@@ -18,6 +18,7 @@
 
 ## 3.Cum functioneaza:
 La incept intra in starea default, adica dificultatea nu este setata iar ledul este alb. Avem 2 butoane, unul de start/stop, iar celalalt de selectare a dificultatii. Dupa ce selectam dificultatea incepe insiruirea de cuvinte random. Cand ghicim un cuvant, se trece la urmatorul iar daca nu il ghicim se aprinde led-ul rosu. Runda se opreste dupa 30 de secunde sau dupa apasarea butonului de start/stop.La finalul rundei se va afisa cate cuvinte ai ghicit, si se va reveni la starea default.
+
 Spor la joaca :3
 
 
