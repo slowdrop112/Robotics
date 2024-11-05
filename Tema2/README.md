@@ -11,7 +11,7 @@
  ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Tema2/poza_circuit2.png)
 
 ## 2.Detalii Tehnice
-- LED RGB - Indicator de stare: În starea de repaus, LED-ul va avea culoarea albă.La apăsarea butonului de start, LED-ul va clipi timp de 3 secunde, indicând o numărătoare inversă până la începerea rundei.În timpul unei runde: LED-ul va fi verde dacă textul introdus este corect și va deveni roșu în caz de greșeală.
+- LED RGB - Indicator de stare: În starea de repaus, LED-ul va avea culoarea albă. /n La apăsarea butonului de start, LED-ul va clipi timp de 3 secunde, indicând o numărătoare inversă până la începerea rundei.În timpul unei runde: LED-ul va fi verde dacă textul introdus este corect și va deveni roșu în caz de greșeală.
   
 - Butonul Start/Stop: Modul de repaus: Dacă jocul este oprit, apăsarea butonului inițiază o nouă rundă după o numărătoare inversă de 3 secunde. În timpul unei runde: Dacă runda este activă, apăsarea butonului o va opri imediat.
   
