@@ -42,7 +42,7 @@ https://www.youtube.com/shorts/5DWZDmWTSYU
 
 ## 5. Poze ale circuitului:
  ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Tema3/POZA_CIRCUIT.JPEG)
- ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Tema3/POZA_CIRCUIT.JPEG)
- ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Tema3/POZA_CIRCUIT.JPEG)
+ ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Tema3/POZA_CIRCUIT2.JPEG)
+ ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Tema3/POZA_CIRCUIT3.JPEG)
 
 
