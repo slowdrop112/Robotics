@@ -21,12 +21,22 @@ La apăsarea unui buton corespunzător culorii LED-ului activ, jucătorul câșt
 Un buton suplimentar dedicat pentru pornirea jocului poate fi adăugat.
 Multiplexarea butoanelor cu rezistențe poate fi utilizată pentru economisirea pinilor.
 
-- Generarea cuvintelor: Se va crea un dicționar de cuvinte. În timpul unei runde, cuvintele vor fi afișate în terminal într-o ordine aleatorie. Dacă cuvântul curent a fost scris corect, un cuvânt nou va fi afișat imediat. Dacă nu, un nou cuvânt va apărea după intervalul de timp stabilit în funcție de dificultate.
+-LCD: LCD-ul va afisa punctajul celor 2 jucători pe parcursul jocului.
+La finalul jocului, LCD-ul va afișa câștigătorul și scorul final pentru câteva secunde, apoi va reveni la ecranul de start cu mesajul de bun venit.
+
+-Servomotor: Servomotorul va începe la 0 grade și se va mișca în sens anticlockwise pentru a marca timpul scurs.
+Poziția sa finală va indica sfârșitul jocului.
+
+-SPI: Comunicarea între cele două plăci Arduino se va face prin SPI. Arduino-ul Master va controla LCD-ul și servomotorul, iar Arduino-ul Slave va gestiona butoanele și LED-urile. Mesajele vor fi schimbate între cele două plăci pentru sincronizarea stării jocului.
 
 ## 3.Cum functioneaza:
-La incept intra in starea default, adica dificultatea nu este setata iar ledul este alb. Avem 2 butoane, unul de start/stop, iar celalalt de selectare a dificultatii. Dupa ce selectam dificultatea incepe insiruirea de cuvinte random. Cand ghicim un cuvant, se trece la urmatorul iar daca nu il ghicim se aprinde led-ul rosu. Runda se opreste dupa 30 de secunde sau dupa apasarea butonului de start/stop.La finalul rundei se va afisa cate cuvinte ai ghicit, si se va reveni la starea default.
+Jocul începe cu afișarea unui mesaj de bun venit pe LCD. Jucătorii vor apăsa butoanele pentru a porni jocul.
+Fiecare jucător va avea 3 butoane și un LED RGB, care vor corespunde unei culori.
+La fiecare rundă, LED-ul RGB al jucătorului activ va aprinde o culoare asociată cu unul dintre butoanele acestuia.
+Jucătorul va trebui să apese butonul corespunzător cât mai rapid pentru a câștiga puncte.
+Scorurile vor fi actualizate și afișate pe LCD pe parcursul jocului.
+La final, se va anunța câștigătorul și scorul final.
 
-Spor la joaca :3
 
 
 ## 4. Video demonstrativ:
