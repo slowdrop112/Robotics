@@ -37,7 +37,9 @@ Jucătorul va trebui să apese butonul corespunzător cât mai rapid pentru a c�
 Scorurile vor fi actualizate și afișate pe LCD pe parcursul jocului.
 La final, se va anunța câștigătorul și scorul final.
 
-
-
 ## 4. Video demonstrativ:
 https://youtube.com/shorts/dEik2olXsSA?feature=share
+
+##5. Poze ale circuitului:
+ ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Tema3/POZA_CIRCUIT.JPEG)
+
