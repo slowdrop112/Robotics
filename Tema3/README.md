@@ -1,8 +1,8 @@
 # Quick Time Game
 ## 1.Componente folosite :
 - 2x Arduino UNO (ATmega328P microcontroller)
-- 2x LED RGB (pentru a semnaliza dacă cuvântul corect e scris greșit sau nu)
-- 6x Butoane (pentru start/stop rundă și pentru selectarea dificultății)
+- 2x LED RGB 
+- 6x Butoane 
 - 20x Rezistoare (13x 330 Ohm, 7x 1K Ohm )
 - 1x Breadbord Mediu, 1x Breadbord Mare
 - O TONA DE Fire de legătură
