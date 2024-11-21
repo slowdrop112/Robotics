@@ -1,17 +1,20 @@
-# Typeracer Game
+# Quick Time Game
 ## 1.Componente folosite :
-- Arduino UNO (ATmega328P microcontroller)
-- 1x LED RGB (pentru a semnaliza dacă cuvântul corect e scris greșit sau nu)
-- 2x Butoane (pentru start/stop rundă și pentru selectarea dificultății)
-- 5x Rezistoare (3x 330 ohm, 2x 2000 ohm)
-- Breadbord
-- Fire de legătură
+- 2x Arduino UNO (ATmega328P microcontroller)
+- 2x LED RGB (pentru a semnaliza dacă cuvântul corect e scris greșit sau nu)
+- 6x Butoane (pentru start/stop rundă și pentru selectarea dificultății)
+- 20x Rezistoare (13x 330 Ohm, 7x 1K Ohm )
+- 1x Breadbord Mediu, 1x Breadbord Mare
+- O TONA DE Fire de legătură
+- 1x LCD
+- 1x Servomotor
+- 1x Potentiometru
 
   
  ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Tema2/poza_circuit2.png)
 
 ## 2.Detalii Tehnice
-- LED RGB - Indicator de stare: În starea de repaus, LED-ul va avea culoarea albă. La apăsarea butonului de start, LED-ul va clipi timp de 3 secunde, indicând o numărătoare inversă până la începerea rundei.În timpul unei runde: LED-ul va fi verde dacă textul introdus este corect și va deveni roșu în caz de greșeală.
+- LED RGB -Fiecare jucător are 3 butoane asociate cu LED-uri de culori diferite. La începutul fiecărei runde, LED-ul RGB al jucătorului activ va lumina într-o culoare corespunzătoare unui buton. Jucătorul trebuie să apese butonul corespunzător cât mai rapid pentru a câștiga puncte. LED-ul RGB se va stinge în afara rundei jucătorului activ.
   
 - Butonul Start/Stop: Modul de repaus: Dacă jocul este oprit, apăsarea butonului inițiază o nouă rundă după o numărătoare inversă de 3 secunde. În timpul unei runde: Dacă runda este activă, apăsarea butonului o va opri imediat.
   
