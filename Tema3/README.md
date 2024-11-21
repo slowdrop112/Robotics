@@ -11,7 +11,7 @@
 - 1x Potentiometru
 
   
- ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Tema2/poza_circuit2.png)
+ ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Tema3/Capture.PNG)
 
 ## 2.Detalii Tehnice
 - LED RGB -Fiecare jucător are 3 butoane asociate cu LED-uri de culori diferite. La începutul fiecărei runde, LED-ul RGB al jucătorului activ va lumina într-o culoare corespunzătoare unui buton. Jucătorul trebuie să apese butonul corespunzător cât mai rapid pentru a câștiga puncte. LED-ul RGB se va stinge în afara rundei jucătorului activ.
