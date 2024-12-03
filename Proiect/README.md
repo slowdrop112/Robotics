@@ -20,8 +20,9 @@ I really think that this system is very useful, a lifesaver I could say, because
 </p>
 
 
-<pre>
+<p>
 <h2>Hardware Design</h2>
+<pre>
 1x Arduino Uno 
 1x Breadboard 
 1x Buzzer
@@ -29,7 +30,8 @@ I really think that this system is very useful, a lifesaver I could say, because
 1x Red LED
 Wires
 Resistors
-  
 </pre>
+  
+</p>
 
 
