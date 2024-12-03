@@ -1,1 +1,1 @@
-<p align = "center" > # Gas Detector </p>
+<h1 align = "center" > Gas Detector </h1>
