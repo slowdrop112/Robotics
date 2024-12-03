@@ -30,8 +30,27 @@ I really think that this system is very useful, a lifesaver I could say, because
 1x Red LED
 Wires
 Resistors
-</pre>
-  
+</pre> 
 </p>
+
+
+<p>
+<h2>Software Design</h2>
+  <h1>TBT</h1>
+</p>
+
+
+
+<p>
+<h2>Results</h2>
+  <h1>TBT</h1>
+</p>
+
+
+<p>
+<h2>Inspiration</h2>
+  <h1>TBT</h1>
+</p>
+
 
 
