@@ -20,16 +20,16 @@ I really think that this system is very useful, a lifesaver I could say, because
 </p>
 
 
-<p>
+<pre>
 <h2>Hardware Design</h2>
-1x Arduino Uno \n
-1x Breadboard \n
+1x Arduino Uno 
+1x Breadboard 
 1x Buzzer
 1x MQ Gas Sensor
 1x Red LED
 Wires
 Resistors
   
-</p>
+</pre>
 
 
