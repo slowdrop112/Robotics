@@ -20,7 +20,7 @@
 - Generarea cuvintelor: Se va crea un dicționar de cuvinte. În timpul unei runde, cuvintele vor fi afișate în terminal într-o ordine aleatorie. Dacă cuvântul curent a fost scris corect, un cuvânt nou va fi afișat imediat. Dacă nu, un nou cuvânt va apărea după intervalul de timp stabilit în funcție de dificultate.
 
 ## 3.Cum functioneaza:
-La incept intra in starea default, adica dificultatea nu este setata iar ledul este alb. Avem 2 butoane, unul de start/stop, iar celalalt de selectare a dificultatii. Dupa ce selectam dificultatea incepe insiruirea de cuvinte random. Cand ghicim un cuvant, se trece la urmatorul iar daca nu il ghicim se aprinde led-ul rosu. Runda se opreste dupa 30 de secunde sau dupa apasarea butonului de start/stop.La finalul rundei se va afisa cate cuvinte ai ghicit, si se va reveni la starea default.
+La inceput intra in starea default, adica dificultatea nu este setata iar ledul este alb. Avem 2 butoane, unul de start/stop, iar celalalt de selectare a dificultatii. Dupa ce selectam dificultatea incepe insiruirea de cuvinte random. Cand ghicim un cuvant, se trece la urmatorul iar daca nu il ghicim se aprinde led-ul rosu. Runda se opreste dupa 30 de secunde sau dupa apasarea butonului de start/stop.La finalul rundei se va afisa cate cuvinte ai ghicit, si se va reveni la starea default.
 
 Spor la joaca :3
 
