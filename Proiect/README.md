@@ -24,7 +24,7 @@ I really think that this system is very useful, a lifesaver I could say, because
 <h2>Hardware Design</h2>
 <pre>
 
-  | Number  | Name |
+| Number  | Name |
 | ------------- | ------------- |
 | 1  | Arduino Uno  |
 | ------------- | ------------- |
