@@ -24,25 +24,10 @@ I really think that this system is very useful, a lifesaver I could say, because
 <h2>Hardware Design</h2>
 <pre>
 
-| Number  | Name |
+| First Header  | Second Header |
 | ------------- | ------------- |
-| 1  | Arduino Uno  |
-| ------------- | ------------- |
-| 1  | Breadboard  |
-| ------------- | ------------- |
-| 1  | Buzzer |
-| ------------- | ------------- |
-| 1  | Mq7 Gas Detector  |
-| ------------- | ------------- |
-| 1  | Green LED  |
-| ------------- | ------------- |
-| ?  | Wires  |
-| ------------- | ------------- |
-| 1  | 220 Ω resistor  |
-| ------------- | ------------- |
-| 1  | Breadboard  |
-| ------------- | ------------- |
-| 1  | LCD  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 </pre> 
 
