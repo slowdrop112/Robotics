@@ -23,6 +23,11 @@ I really think that this system is very useful, a lifesaver I could say, because
 <p>
 <h2>Hardware Design</h2>
 <pre>
+
+  | First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 1x Arduino Uno 
 1x Breadboard 
 1x Buzzer
