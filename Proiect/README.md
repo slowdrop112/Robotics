@@ -32,7 +32,7 @@ Wires
 Resistors
 </pre> 
 
-!alt text[https://github.com/slowdrop112/Robotics/blob/main/Photos/scheme.png]
+![alt text](https://github.com/slowdrop112/Robotics/blob/main/Photos/scheme.png)
 
 </p>
 
