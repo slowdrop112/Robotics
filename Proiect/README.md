@@ -30,7 +30,7 @@ I really think that this system is very useful, a lifesaver I could say, because
 | 1  | Arduino Uno  | LAB |
 | 1  | Breadboard  | LAB |
 | 1  | Buzzer | LAB| 
-| 1  | Mq7 Gas Detector  | [MQ7 SENSOR](https://robocraze.com/blogs/post/mq-series-gas-sensor) |
+| 1  | Mq7 Gas Detector  | [MQ7 SENSOR](https://www.sigmanortec.ro/Senzor-Gaz-MQ-7-Monoxid-carbon-p126101575) |
 | 1  | Green LED  | LAB |
 | ?  | Wires  | LAB |
 | 1  | 220 Ω resistor  | LAB |
