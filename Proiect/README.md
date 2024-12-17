@@ -42,7 +42,32 @@ I really think that this system is very useful, a lifesaver I could say, because
 
 ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Photos/scheme.png)
 
-# Hardware description
+## Hardware description
+
+### 1. Microcontroller: ATmega328P
+* Digital Pin: For LED control, buzzer, and LCD
+* Analog Pin: For MQ7 Sensor
+* Frequence: 16 MHz
+* Power: 5V through USB
+  
+### 2. Sensor: MQ7
+* Type: Analog
+* Pin: analog A0
+* Power: 5V
+* Functionality: Sends an analogic value that's like the detected temperature
+
+### 3.LED
+* Pin: digital 6
+* Functionality: It indicates whether the system detects gas or not
+
+### 4. Buzzer
+* Pin : digital 7
+* Functionality: It emits a sound for alerts when it detects gas
+
+### 5. LCD 16X2
+* Pins: 2,3,4,5,11,12
+* Functionality: It displays the system data
+  
 
 
 
