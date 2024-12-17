@@ -4,7 +4,7 @@
 <h2>Introduction</h2>
 So basically, this system determines whether the sensor detects gas or not :).
 It works like all the other gas detectors. If gas is not detected, the system is in the "initial" mode, and by initial mode, I mean that the LED is turned off, and the buzzer doesn't make any sound.
-But when gas is detected, the buzzer starts making noise, and the LED starts flickering a red light, something like a warning alarm.
+But when gas is detected, the buzzer starts making noise, and the LED starts flickering a red light, something like a warning alarm, and at the same time, on the LCD it is showed a warning message.
 
 <p> </p> 
 The idea of making a Gas Detector actually came when I was lighting up some coal blocks, and the gas detector started going crazy. And after that, I thought, it is something kind of easy to do, but it's a must-have in everyone's kitchen. 
