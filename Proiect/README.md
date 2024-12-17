@@ -65,6 +65,8 @@ I really think that this system is very useful, a lifesaver I could say, because
 
 [MQ SENSORS](https://robocraze.com/blogs/post/mq-series-gas-sensor)
 
+[INSPO FOR BLOCK SCHEME](https://docs.google.com/drawings/d/1UpxRyJNfczJHhNRvWdeb5kh_7IEUy5173odk93W_GSA/edit)
+
 </p>
 
 
