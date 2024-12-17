@@ -16,7 +16,9 @@ I really think that this system is very useful, a lifesaver I could say, because
 
 <p>
 <h2>Block Scheme</h2>
+  
 ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Photos/block_scheme.png)
+  
 </p>
 
 
