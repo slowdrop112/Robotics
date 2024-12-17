@@ -60,15 +60,29 @@ I really think that this system is very useful, a lifesaver I could say, because
 ### 3.LED
 * Pin: digital 6
 * Functionality: It indicates whether the system detects gas or not
+* Consumption: ~20 mA.
 
 ### 4. Buzzer
 * Pin : digital 7
 * Functionality: It emits a sound for alerts when it detects gas
+* Consumption: ~30 mA.
+
 
 ### 5. LCD 16X2
+* Type: Character Display
 * Pins: 2,3,4,5,11,12
 * Functionality: It displays the system data
-  
+* Consumption: ~50-100 mA.
+
+### Overall Functionality
+So the MQ7 sensor sends analog data to the A0 pin of the Arduino Uno. Then, the LCD displays a message like " !WARNING! GAS DETECTED", and the buzzer and the LED are activated too.
+
+###Overall Consumption
+* LED: ~20 mA
+* BUZZER: ~30 mA
+* LCD: ~20-100 mA
+* MQ7 GAS SENSOR: <5mA
+* TOTAL:  ~150-200 mA
 
 
 
