@@ -16,7 +16,7 @@ I really think that this system is very useful, a lifesaver I could say, because
 
 <p>
 <h2>Block Scheme</h2>
-  <h1>TBT</h1>
+![alt text](https://github.com/slowdrop112/Robotics/blob/main/Photos/block_scheme.png)
 </p>
 
 
@@ -42,20 +42,20 @@ I really think that this system is very useful, a lifesaver I could say, because
 
 <p>
 <h2>Software Design</h2>
-  <h1>TBT</h1>
+  <h1>TBD</h1>
 </p>
 
 
 
 <p>
 <h2>Results</h2>
-  <h1>TBT</h1>
+  <h1>TBD</h1>
 </p>
 
 
 <p>
 <h2>Inspiration</h2>
-  <h1>TBT</h1>
+  <h1>TBD</h1>
 </p>
 
 
