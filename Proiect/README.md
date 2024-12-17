@@ -33,7 +33,7 @@ I really think that this system is very useful, a lifesaver I could say, because
 | 1  | Mq7 Gas Detector  | [MQ7 SENSOR](https://www.sigmanortec.ro/Senzor-Gaz-MQ-7-Monoxid-carbon-p126101575) |
 | 1  | Green LED  | LAB |
 | lots  | Wires  | LAB |
-| 1  | 220 Ω resistor  | LAB |
+| 2  | 220 Ω resistor  | LAB |
 | 1  | Breadboard  | LAB | 
 | 1  | LCD  | LAB |
 
