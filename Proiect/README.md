@@ -42,7 +42,7 @@ I really think that this system is very useful, a lifesaver I could say, because
 
 ![alt text](https://github.com/slowdrop112/Robotics/blob/main/Photos/scheme.png)
 
-##Hardware description
+## Hardware description
 
 
 
