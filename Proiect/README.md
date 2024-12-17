@@ -61,7 +61,7 @@ I really think that this system is very useful, a lifesaver I could say, because
 <p>
 <h2>Inspiration</h2>
   
-This site was built using [GitHub Pages](https://pages.github.com/).
+[I2C VS SPI](https://forum.arduino.cc/t/spi-vs-i2c-display-interface/527963).
 
 </p>
 
