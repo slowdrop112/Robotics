@@ -94,8 +94,10 @@ So the MQ7 sensor sends analog data to the A0 pin of the Arduino Uno. Then, the 
 <p>
 <h2>Software Design</h2>
 So the Software Design is very practical and easy to understand. First of all we have got the libraries Wire.h and LiquidCrystal.h. 
-<h2>The Wire.h library </h2>
+<h3>The Wire.h library </h3>
 is used to communicate with the Inter-integrated Circuit, and it facilitates communication between the Arduino and peripherals connected, like sensors or displays.
+<h3>The LiquidCrystal.h library</h3>
+is used to control standard character LCD displays that use the Hitachi HD44780 driver(or a compatible one). It provides functions to send text, control the cursor, and manage the display.
   
 </p>
 
