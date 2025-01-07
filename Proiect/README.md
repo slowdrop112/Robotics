@@ -126,6 +126,8 @@ The Wire.h is as crucial as the other library, because this library communicates
   So for now I have done all the improvements I could've thinked of, and are in my resources, but of course, anywhere there's room for improvements, and I am eager to hear them and try and implement them, so If you have got any ideea, hit me up, and I'll do my best.  :)
 </p>
 
+<h2> [Video of the Circuit] (https://www.youtube.com/shorts/YyIjdQ5tP8Q) </h2>
+
 
 <p>
 <h2>Inspiration</h2>
