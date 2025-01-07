@@ -93,14 +93,17 @@ So the MQ7 sensor sends analog data to the A0 pin of the Arduino Uno. Then, the 
 
 <p>
 <h2>Software Design</h2>
-  <h1>TBD</h1>
+  So the Software Design is very practical and easy to understand. First of all we have got the libraries Wire.h and LiquidCrystal.h. 
+## The Wire.h library 
+is used to communicate with the Inter-integrated Circuit, and it facilitates communication between the Arduino and peripherals connected, like sensors or displays.
+  
 </p>
 
 
 
 <p>
 <h2>Results</h2>
-  <h1>TBD</h1>
+  <h1></h1>
 </p>
 
 
