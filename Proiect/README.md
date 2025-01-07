@@ -110,7 +110,8 @@ The Wire.h is as crucial as the other library, because this library communicates
 
 <p>
 <h2>Results</h2>
-  <h1></h1>
+  <h3>Final Form</h3>
+  So the gas detector works perfectly fine, it is made for everyone, for the the ones that can't see(buzzer), or can't hear(LED), and is a MUST BE in everyone's homes.  
 </p>
 
 
