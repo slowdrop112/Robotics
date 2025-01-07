@@ -93,7 +93,7 @@ So the MQ7 sensor sends analog data to the A0 pin of the Arduino Uno. Then, the 
 
 <p>
 <h2>Software Design</h2>
-So the Software Design is very practical and easy to understand. First of all we have got the libraries Wire.h and LiquidCrystal.h. 
+So the Software Design is very practical and easy to understand. First of all we have got the libraries Wire.h and LiquidCrystal.h. We've got a buzzer and a LED, that work simultaneously.The sensor send analog data, and I have tested out a lot of cases with a possible "Gas leak" we've got 3 levels of detections. First levele, no gas detected or a pointless amount of gas detected that could do no harm, and it displays the level of gas detected and the message "SAFE for now". The next level detect an amount of gas that if haven't realized that is a leak, in some time it could do some damage, and it displays the level of CO, the message says " !WARNING! ", and now the buzzer and the LED start doing some work, because they turn on and off, so that you could see, or maybe for someone blind, hear, that there is something wrong. And for the final level of gas detection, the one that could blow up everything in moments, it displays the CO levels still, the message " DANGER HIGH " pops up, and the incredible duo, the buzzer and the LED now turn on and off at double the speed of the  previous level. 
 <h4>The Wire.h library </h4>
 is used to communicate with the Inter-integrated Circuit, and it facilitates communication between the Arduino and peripherals connected, like sensors or displays.
 <h4>The LiquidCrystal.h library</h4>
