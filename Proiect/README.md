@@ -112,14 +112,15 @@ The Wire.h is as crucial as the other library, because this library communicates
 <h2>Results</h2>
   <h3>Final Form</h3>
   So the gas detector works perfectly fine, it is made for everyone, for the the ones that can't see(buzzer), or can't hear(LED), and is a MUST BE in everyone's homes.At first it was just one level, the "medium" one, but after tests and tests, I have come to the ideea that I should do another level, just to be safer.
-  <p> 
-  <h3> Labs used: </h3>
-  * 1. Lab 0 for the GPIO pins
-  * 2. Lab 1 for the USART
-  * 3. Lab 2 for the Timers
-  * 4. Lab 4 for the ADC
-  * 5. Lab 6 for the I2C
-  </p>
+<h3>Labs used:</h3>
+<ul>
+  <li>Lab 0 for the GPIO pins</li>
+  <li>Lab 1 for the USART</li>
+  <li>Lab 2 for the Timers</li>
+  <li>Lab 4 for the ADC</li>
+  <li>Lab 6 for the I2C</li>
+</ul>
+
   <p> </p>
   <h3>Improvements</h3>
   So for now I have done all the improvements I could've thinked of, and are in my resources, but of course, anywhere there's room for improvements, and I am eager to hear them and try and implement them, so If you have got any ideea, hit me up, and I'll do my best.  :)
