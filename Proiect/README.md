@@ -96,8 +96,13 @@ So the MQ7 sensor sends analog data to the A0 pin of the Arduino Uno. Then, the 
 So the Software Design is very practical and easy to understand. First of all we have got the libraries Wire.h and LiquidCrystal.h. 
 <h4>The Wire.h library </h4>
 is used to communicate with the Inter-integrated Circuit, and it facilitates communication between the Arduino and peripherals connected, like sensors or displays.
-<h3>The LiquidCrystal.h library</h3>
+<h4>The LiquidCrystal.h library</h4>
 is used to control standard character LCD displays that use the Hitachi HD44780 driver(or a compatible one). It provides functions to send text, control the cursor, and manage the display.
+<p> </p>
+<h3>Interaction With The Code</h3>
+So the LiquidCrystal.h library is crucial for this code, because without it, it wouldn't be so practical and the CO levels would be shown only in the terminal.
+<p></p>
+The Wire.h is as crucial as the other library, because this library communicates with the MQ7 Gas Sensor. So these to are like a a bike. Without one, the other one would be useless.
   
 </p>
 
