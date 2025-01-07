@@ -26,6 +26,9 @@ void setup() {
   pinMode(buzzerPin, OUTPUT);
   pinMode(ledPin, OUTPUT);
 
+  Serial.begin(9600); // Inițializare Serial Monitor
+  Serial.println("CO Monitor Initialized.");
+
   // Configurare TIMER1
   cli(); // Dezactivare întreruperi
   TCCR1A = 0; 
@@ -48,20 +51,27 @@ void loop() {
   lcd.print(coLevel);
   lcd.print("   "); // Golire spațiu în plus
 
+  // Afișare pe Serial Monitor
+  Serial.print("CO Level: ");
+  Serial.println(coLevel);
+
   // Niveluri de avertizare
   if (coLevel > coThreshold * 2) { 
     lcd.setCursor(0, 1);
     lcd.print("   DANGER HIGH   "); // Mesaj pericol mare
+    Serial.println("Alert: DANGER HIGH!");
     alertLevel = 2; // Pericol mare
     toggleBuzzerLed = true; // Activare buzzer și LED
   } else if (coLevel > coThreshold) {
     lcd.setCursor(0, 1);
     lcd.print("    WARNING!     "); // Mesaj avertisment
+    Serial.println("Alert: WARNING!");
     alertLevel = 1; // Avertisment moderat
     toggleBuzzerLed = true; // Activare buzzer și LED
   } else {
     lcd.setCursor(0, 1);
-    lcd.print("   SAFE LEVEL    "); // Mesaj nivel sigur
+    lcd.print(" SAFE for now    "); // Mesaj nivel sigur
+    Serial.println("Status: SAFE for now.");
     alertLevel = 0; // Nivel sigur
     toggleBuzzerLed = false; // Dezactivare buzzer și LED
     digitalWrite(buzzerPin, LOW);
