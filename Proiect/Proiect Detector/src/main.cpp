@@ -10,70 +10,70 @@ const int mq7Pin = A0;
 const int buzzerPin = 7;
 const int ledPin = 6;
 
-const int coThreshold = 100; // Prag CO
+const int coThreshold = 100; // prag CO, atat am vazut din mai multe teste ca este un nivel okay
 
-volatile bool toggleBuzzerLed = false; // Control ON/OFF pentru buzzer și LED
-volatile bool state = false;           // Stare LED și buzzer
-volatile int alertLevel = 0;           // Nivel avertizare: 0 = Safe, 1 = Warning, 2 = Danger High
+volatile bool toggleBuzzerLed = false; // control ON/OFF pentru buzzer și LED care lucreaza concomitent
+volatile bool state = false;           // stare LED și buzzer
+volatile int alertLevel = 0;           // nivel avertizare: 0 = Safe, 1 = Warning, 2 = Danger High
 
 void setup() {
-  lcd.begin(16, 2); // Inițializare LCD
-  lcd.print("CO Monitor Init"); // Mesaj de inițializare
-  delay(2000); // Mesajul rămâne afișat 2 secunde
-  lcd.clear(); // Ștergere ecran
+  lcd.begin(16, 2); // initializare LCD
+  lcd.print("CO Monitor Init"); // mesaj de inițializare
+  delay(2000); // care ramane afisat 2 secunde
+  lcd.clear(); 
 
   pinMode(mq7Pin, INPUT);
   pinMode(buzzerPin, OUTPUT);
   pinMode(ledPin, OUTPUT);
 
-  Serial.begin(9600); // Inițializare Serial Monitor
+  Serial.begin(9600); //initializare serial pentru a vedea si in terminal 
   Serial.println("CO Monitor Initialized.");
 
   // Configurare TIMER1
-  cli(); // Dezactivare întreruperi
+  cli(); // dezactivare intreruperi
   TCCR1A = 0; 
   TCCR1B = 0; 
 
-  OCR1A = 1562; // Valoare pentru temporizare (aproximativ 1 Hz la prescaler 1024)
+  OCR1A = 1562; 
   TCCR1B |= (1 << WGM12); // Mod CTC
   TCCR1B |= (1 << CS12) | (1 << CS10); // Prescaler 1024
-  TIMSK1 |= (1 << OCIE1A); // Activare întrerupere pe comparație
-  sei(); // Activare întreruperi
+  TIMSK1 |= (1 << OCIE1A); // activare intreruperi la comparatie
+  sei(); // activare intreruperi
 }
 
 void loop() {
-  // Citirea nivelului de CO
+  //se citeste nivelul de CO
   int coLevel = analogRead(mq7Pin);
 
-  // Afișare pe LCD
-  lcd.setCursor(0, 0); // Primul rând
-  lcd.print("CO Level: "); 
+  // afisare pe LCD
+  lcd.setCursor(0, 0); // primul rând
+  lcd.print("CO Level: "); //cu mesajul permanent care arata nivelul de CO
   lcd.print(coLevel);
-  lcd.print("   "); // Golire spațiu în plus
+  lcd.print("   "); 
 
-  // Afișare pe Serial Monitor
+  // afisare si in terminal
   Serial.print("CO Level: ");
   Serial.println(coLevel);
 
-  // Niveluri de avertizare
+  // incadrarea nivelurilor de avertizare
   if (coLevel > coThreshold * 2) { 
     lcd.setCursor(0, 1);
-    lcd.print("   DANGER HIGH   "); // Mesaj pericol mare
+    lcd.print("   DANGER HIGH   ");  //mesaj pentru cel mai mare nivel de risc
     Serial.println("Alert: DANGER HIGH!");
-    alertLevel = 2; // Pericol mare
-    toggleBuzzerLed = true; // Activare buzzer și LED
+    alertLevel = 2; 
+    toggleBuzzerLed = true;  //toggle pentru activarea buzzer-ului si a led-ului
   } else if (coLevel > coThreshold) {
     lcd.setCursor(0, 1);
-    lcd.print("    WARNING!     "); // Mesaj avertisment
+    lcd.print("    WARNING!     "); //mesahj pentru nivel mediu
     Serial.println("Alert: WARNING!");
-    alertLevel = 1; // Avertisment moderat
-    toggleBuzzerLed = true; // Activare buzzer și LED
+    alertLevel = 1; 
+    toggleBuzzerLed = true; 
   } else {
     lcd.setCursor(0, 1);
-    lcd.print(" SAFE for now    "); // Mesaj nivel sigur
+    lcd.print(" SAFE for now    "); // esti safe
     Serial.println("Status: SAFE for now.");
-    alertLevel = 0; // Nivel sigur
-    toggleBuzzerLed = false; // Dezactivare buzzer și LED
+    alertLevel = 0; 
+    toggleBuzzerLed = false; // daca esti safe, se dezactiveaza buzzer-ul si led-ul
     digitalWrite(buzzerPin, LOW);
     digitalWrite(ledPin, LOW);
   }
@@ -81,7 +81,7 @@ void loop() {
   delay(500);
 }
 
-// Funcția de întrerupere pentru TIMER1
+// functia de intrerupere pentru timer 1
 ISR(TIMER1_COMPA_vect) {
   static int counter = 0; // Contor pentru frecvență redusă
 
